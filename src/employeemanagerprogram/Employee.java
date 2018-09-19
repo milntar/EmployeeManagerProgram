@@ -11,8 +11,8 @@ package employeemanagerprogram;
  * @author J279720
  */
 public class Employee {
-    private String name;
-    private int employeeNum;
+    protected String name;
+    protected int employeeNum;
 
     public Employee(String name, int employeeNum) {
         this.name = name;
